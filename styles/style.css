@@ -1,0 +1,46 @@
+.root{
+    --mont: "Montserrat"
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header-content{
+    background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    animation: bg 3s linear infinite;
+}
+@keyframes bg {
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+.navbar-brand{
+    font-family: var(--mont);
+    font-weight: 800;
+    color: #fff;
+}
+.navbar-brand:hover{
+    background: #000;
+    border-radius: 5px;
+}
+.nav__link{
+    font-family: var(--mont);
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+}
+.nav__link:hover{
+    background: #000;
+    border-radius: 20px;
+}
